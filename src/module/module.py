@@ -19,8 +19,9 @@ def module_main():
     Implements module's main logic for inputting data.
     Function description should not be modified.
     """
-
+    
     log.debug("Inputting data...")
+
     while True:
         # incoming i2c byte from slave
         if str(getenv('DATA_TYPE')) == "byte" :

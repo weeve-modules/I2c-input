@@ -43,7 +43,7 @@ envs:                                   # Array of environment variables that wi
   - name: Polling Period                # name of the field to be displayed on the UI.
     key: PERIOD                          # key to set in the environment variables.
     description: The I2C interface read data every choosen period (in milliseconds)       # Description/helper text for the field.
-    value: 1000                           # Value to be set in the environment variables.
+    value: 200                           # Value to be set in the environment variables.
     type: 'number'                      # Type of the field. Possible values are: ['text', 'select', 'boolean', 'date', 'time', 'dateTime-local', 'number', 'multiple', 'CSV', 'file']
 envDevices:                            
   - I2C_INTERFACE_PATH                  # Array of envs that are devices and need binding
