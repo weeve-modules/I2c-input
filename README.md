@@ -3,7 +3,7 @@
 |              |                                                                           |
 | ------------ | ------------------------------------------------------------------------- |
 | name         | i2c input                                                                 |
-| version      | v2.0.0                                                                    |
+| version      | v2.0.1                                                                    |
 | docker image | [weevenetwork/i2c-input](https://hub.docker.com/r/weevenetwork/i2c-input) |
 | tags         | Python, Flask, Docker, Weeve                                              |
 | authors      | Ghassen barbouchi                                                         |
